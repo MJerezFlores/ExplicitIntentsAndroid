@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context="com.macarena.explicitintents.Activity3">
 
-    <TextView
+    <EditText
         android:id="@+id/etSurname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,7 +15,9 @@
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:layout_marginTop="15dp"
+        android:ems="10"
         android:gravity="center_vertical|center_horizontal"
+        android:inputType="textPersonName"
         android:text="@string/hint_surname"
         android:textSize="18sp"
         android:textStyle="normal|bold" />
@@ -31,4 +33,5 @@
         android:text="@string/btn_submit"
         android:textColor="#FFFFFF"
         android:textStyle="normal|bold" />
+
 </LinearLayout>
